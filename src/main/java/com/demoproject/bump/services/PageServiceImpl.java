@@ -5,6 +5,7 @@ import com.demoproject.bump.dtos.PageResponse;
 import com.demoproject.bump.dtos.PostRequest;
 import com.demoproject.bump.dtos.PostResponse;
 import com.demoproject.bump.entities.PageEntity;
+import com.demoproject.bump.exceptions.TitleNotValidException;
 import com.demoproject.bump.repositories.PageRepository;
 import com.demoproject.bump.repositories.UserRepository;
 import lombok.AllArgsConstructor;
@@ -28,6 +29,7 @@ public class PageServiceImpl implements PageService {
 
     @Override
     public PageResponse create(PageRequest page) {
+        this.validTitle(page.getTitle());
         final var entity = new PageEntity();
         BeanUtils.copyProperties(page, entity);
 
@@ -73,6 +75,7 @@ public class PageServiceImpl implements PageService {
 
     @Override
     public PageResponse update(PageRequest page, String title) {
+        this.validTitle(page.getTitle());
         final var entityFromDB = this.pageRepository.findByTitle(title)
                 .orElseThrow(() -> new IllegalArgumentException("Title not found"));
 
@@ -92,7 +95,7 @@ public class PageServiceImpl implements PageService {
             this.pageRepository.deleteByTitle(title);
         } else {
             log.info("Error to delete");
-            throw new IllegalArgumentException("Title not found, Cant delete page");
+            throw new IllegalArgumentException("Cant delete because title not exist");
         }
 
 
@@ -106,5 +109,11 @@ public class PageServiceImpl implements PageService {
     @Override
     public PageResponse deletePost(Long idPost) {
         return null;
+    }
+
+    private void validTitle(String title) {
+        if(title.contains("a bad word")) {
+            throw new TitleNotValidException("Title cant contain bad words");
+        }
     }
 }
