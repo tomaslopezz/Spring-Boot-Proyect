@@ -5,6 +5,7 @@ import com.demoproject.bump.dtos.PageResponse;
 import com.demoproject.bump.dtos.PostRequest;
 import com.demoproject.bump.dtos.PostResponse;
 import com.demoproject.bump.entities.PageEntity;
+import com.demoproject.bump.entities.PostEntity;
 import com.demoproject.bump.exceptions.TitleNotValidException;
 import com.demoproject.bump.repositories.PageRepository;
 import com.demoproject.bump.repositories.UserRepository;
@@ -102,17 +103,53 @@ public class PageServiceImpl implements PageService {
     }
 
     @Override
-    public PostResponse createPost(PostRequest post) {
-        return null;
+    public PageResponse createPost(PostRequest post, String title) {
+        final var pageToUpdate = this.pageRepository.findByTitle(title)
+                .orElseThrow(() -> new IllegalArgumentException(("Title not found")));
+
+        final var postEntity = new PostEntity();
+        BeanUtils.copyProperties(post, postEntity);
+        pageToUpdate.addPost(postEntity);
+
+        postEntity.setDateCreation(LocalDateTime.now());
+
+        final var responseEntity = this.pageRepository.save(pageToUpdate);
+
+        final  var response = new PageResponse();
+        BeanUtils.copyProperties(responseEntity, response);
+
+        List<PostResponse> postResponses = responseEntity.getPosts()
+                .stream()
+                .map(postE -> PostResponse
+                        .builder()
+                        .img(postE.getImg())
+                        .content(postE.getContent())
+                        .dateCreation(postE.getDateCreation())
+                        .build()).toList();
+        response.setPosts(postResponses);
+
+
+        return response;
     }
 
     @Override
-    public PageResponse deletePost(Long idPost) {
-        return null;
+    public void deletePost(Long idPost, String title) {
+        final var pageToUpdate = this.pageRepository.findByTitle(title)
+                .orElseThrow(() -> new IllegalArgumentException(("Title not found")));
+
+       final var postToDelete = pageToUpdate.getPosts()
+                .stream()
+                .filter(post -> post.getId().equals(idPost))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("post id not found"));
+
+       pageToUpdate.removePost(postToDelete);
+
+       this.pageRepository.save(pageToUpdate);
     }
 
     private void validTitle(String title) {
-        if(title.contains("a bad word")) {
+        if(title.contains("*****")) {
             throw new TitleNotValidException("Title cant contain bad words");
         }
     }

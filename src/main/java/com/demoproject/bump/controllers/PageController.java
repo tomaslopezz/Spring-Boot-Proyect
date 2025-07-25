@@ -3,6 +3,8 @@ package com.demoproject.bump.controllers;
 
 import com.demoproject.bump.dtos.PageRequest;
 import com.demoproject.bump.dtos.PageResponse;
+import com.demoproject.bump.dtos.PostRequest;
+import com.demoproject.bump.dtos.PostResponse;
 import com.demoproject.bump.services.PageService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -48,6 +50,19 @@ public class PageController {
         } else {
             return title;
         }
+    }
+
+
+    @PostMapping(path = "{title}/post")
+    public ResponseEntity<PageResponse> postPost(@RequestBody PostRequest request, @PathVariable String title) {
+        return ResponseEntity.ok(this.pageService.createPost(request, title));
+    }
+
+
+    @DeleteMapping(path = "{title}/post/{idPost}")
+    public ResponseEntity<Void> deletePost( @PathVariable  Long idPost, @PathVariable String title) {
+        this.pageService.deletePost(idPost, title);
+        return ResponseEntity.noContent().build();
     }
 
 

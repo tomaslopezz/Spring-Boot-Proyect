@@ -11,7 +11,7 @@ public interface PageService {
     PageResponse update(PageRequest page, String title);
     void delete(String title);
 
-    PostResponse createPost(PostRequest post);
-    PageResponse deletePost(Long idPost);
+    PageResponse createPost(PostRequest post, String title);
+    void deletePost(Long idPost, String title);
 
 }
