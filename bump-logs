@@ -1,22 +1,22 @@
-2025-07-25T14:13:34.146-03:00  INFO 12076 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Starting BumpApplication using Java 23.0.1 with PID 12076 (C:\Users\tomas\IdeaProjects\bump\target\classes started by tomas in C:\Users\tomas\IdeaProjects\bump)
-2025-07-25T14:13:34.160-03:00  INFO 12076 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-07-25T14:13:34.289-03:00  INFO 12076 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-25T14:13:34.290-03:00  INFO 12076 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-25T14:13:35.505-03:00  INFO 12076 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-25T14:13:35.584-03:00  INFO 12076 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
-2025-07-25T14:13:36.233-03:00  INFO 12076 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-25T14:13:36.253-03:00  INFO 12076 --- [bump] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-25T14:13:36.253-03:00  INFO 12076 --- [bump] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-25T14:13:36.299-03:00  INFO 12076 --- [bump] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/bump]   : Initializing Spring embedded WebApplicationContext
-2025-07-25T14:13:36.299-03:00  INFO 12076 --- [bump] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2006 ms
-2025-07-25T14:13:36.424-03:00  INFO 12076 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-25T14:13:36.676-03:00  INFO 12076 --- [bump] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
-2025-07-25T14:13:36.678-03:00  INFO 12076 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-25T14:13:36.841-03:00  INFO 12076 --- [bump] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-25T14:13:36.930-03:00  INFO 12076 --- [bump] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-25T14:13:36.969-03:00  INFO 12076 --- [bump] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-25T14:13:37.338-03:00  INFO 12076 --- [bump] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-25T14:13:37.443-03:00  INFO 12076 --- [bump] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-08-02T15:44:37.009-03:00  INFO 21480 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Starting BumpApplication using Java 23.0.1 with PID 21480 (C:\Users\tomas\IdeaProjects\bump\target\classes started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T15:44:37.021-03:00  INFO 21480 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T15:44:37.124-03:00  INFO 21480 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-02T15:44:37.126-03:00  INFO 21480 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-02T15:44:38.370-03:00  INFO 21480 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T15:44:38.473-03:00  INFO 21480 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2025-08-02T15:44:39.515-03:00  INFO 21480 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-02T15:44:39.543-03:00  INFO 21480 --- [bump] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-02T15:44:39.543-03:00  INFO 21480 --- [bump] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-02T15:44:39.610-03:00  INFO 21480 --- [bump] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/bump]   : Initializing Spring embedded WebApplicationContext
+2025-08-02T15:44:39.612-03:00  INFO 21480 --- [bump] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2485 ms
+2025-08-02T15:44:39.823-03:00  INFO 21480 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T15:44:40.183-03:00  INFO 21480 --- [bump] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T15:44:40.186-03:00  INFO 21480 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T15:44:40.398-03:00  INFO 21480 --- [bump] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T15:44:40.506-03:00  INFO 21480 --- [bump] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T15:44:40.568-03:00  INFO 21480 --- [bump] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T15:44:41.113-03:00  INFO 21480 --- [bump] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T15:44:41.264-03:00  INFO 21480 --- [bump] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -24,49 +24,41 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-25T14:13:38.386-03:00  INFO 12076 --- [bump] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-25T14:13:38.389-03:00  INFO 12076 --- [bump] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-25T14:13:38.713-03:00  INFO 12076 --- [bump] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-25T14:13:39.362-03:00  WARN 12076 --- [bump] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-25T14:13:39.677-03:00  INFO 12076 --- [bump] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
-2025-07-25T14:13:39.753-03:00  INFO 12076 --- [bump] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-25T14:13:39.785-03:00  INFO 12076 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/bump'
-2025-07-25T14:13:39.794-03:00  INFO 12076 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Started BumpApplication in 6.309 seconds (process running for 6.976)
-2025-07-25T14:15:38.826-03:00  INFO 12076 --- [bump] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/bump]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-25T14:15:38.826-03:00  INFO 12076 --- [bump] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-25T14:15:38.827-03:00  INFO 12076 --- [bump] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-25T14:18:45.300-03:00  WARN 12076 --- [bump] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null]
-2025-07-25T14:20:04.684-03:00 DEBUG 12076 --- [bump] [http-nio-8080-exec-8] o.h.sql.results.internal.ResultsHelper   : Collection fully initialized: [com.demoproject.bump.entities.PageEntity.posts#4]
-2025-07-25T14:21:06.018-03:00 DEBUG 12076 --- [bump] [http-nio-8080-exec-2] o.h.sql.results.internal.ResultsHelper   : Collection fully initialized: [com.demoproject.bump.entities.PageEntity.posts#4]
-2025-07-25T14:21:33.671-03:00  WARN 12076 --- [bump] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-07-25T14:23:33.596-03:00 DEBUG 12076 --- [bump] [http-nio-8080-exec-4] o.h.sql.results.internal.ResultsHelper   : Collection fully initialized: [com.demoproject.bump.entities.PageEntity.posts#4]
-2025-07-25T14:23:33.597-03:00  WARN 12076 --- [bump] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: post id not found]
-2025-07-25T14:25:20.471-03:00  INFO 12076 --- [bump] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-25T14:25:20.479-03:00  INFO 12076 --- [bump] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-25T14:25:20.482-03:00  INFO 12076 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-25T14:25:20.489-03:00  WARN 12076 --- [bump] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+2025-08-02T15:44:42.409-03:00  INFO 21480 --- [bump] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T15:44:42.414-03:00  INFO 21480 --- [bump] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T15:44:42.830-03:00  INFO 21480 --- [bump] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-02T15:44:43.411-03:00  WARN 21480 --- [bump] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T15:44:43.668-03:00  INFO 21480 --- [bump] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T15:44:43.971-03:00  INFO 21480 --- [bump] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T15:44:44.051-03:00  INFO 21480 --- [bump] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-02T15:44:44.095-03:00  INFO 21480 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/bump'
+2025-08-02T15:44:44.108-03:00  INFO 21480 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Started BumpApplication in 7.913 seconds (process running for 8.947)
+2025-08-02T15:45:05.215-03:00  INFO 21480 --- [bump] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-02T15:45:05.227-03:00  INFO 21480 --- [bump] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-02T15:45:05.235-03:00  INFO 21480 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T15:45:05.248-03:00  WARN 21480 --- [bump] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
 Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2025-07-25T14:25:20.490-03:00  INFO 12076 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-25T14:25:20.491-03:00  INFO 12076 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-25T14:25:25.828-03:00  INFO 10564 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Starting BumpApplication using Java 23.0.1 with PID 10564 (C:\Users\tomas\IdeaProjects\bump\target\classes started by tomas in C:\Users\tomas\IdeaProjects\bump)
-2025-07-25T14:25:25.830-03:00  INFO 10564 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-07-25T14:25:25.901-03:00  INFO 10564 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-25T14:25:25.901-03:00  INFO 10564 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-25T14:25:26.720-03:00  INFO 10564 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-25T14:25:26.782-03:00  INFO 10564 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
-2025-07-25T14:25:27.383-03:00  INFO 10564 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-25T14:25:27.400-03:00  INFO 10564 --- [bump] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-25T14:25:27.401-03:00  INFO 10564 --- [bump] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-25T14:25:27.444-03:00  INFO 10564 --- [bump] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/bump]   : Initializing Spring embedded WebApplicationContext
-2025-07-25T14:25:27.445-03:00  INFO 10564 --- [bump] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
-2025-07-25T14:25:27.550-03:00  INFO 10564 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-25T14:25:27.781-03:00  INFO 10564 --- [bump] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
-2025-07-25T14:25:27.784-03:00  INFO 10564 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-25T14:25:27.941-03:00  INFO 10564 --- [bump] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-25T14:25:27.995-03:00  INFO 10564 --- [bump] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-25T14:25:28.040-03:00  INFO 10564 --- [bump] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-25T14:25:28.329-03:00  INFO 10564 --- [bump] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-25T14:25:28.406-03:00  INFO 10564 --- [bump] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-08-02T15:45:05.250-03:00  INFO 21480 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T15:45:05.254-03:00  INFO 21480 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:02:21.137-03:00  INFO 3940 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Starting BumpApplication using Java 23.0.1 with PID 3940 (C:\Users\tomas\IdeaProjects\bump\target\classes started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T17:02:21.141-03:00  INFO 3940 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T17:02:21.242-03:00  INFO 3940 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-02T17:02:21.243-03:00  INFO 3940 --- [bump] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-02T17:02:22.431-03:00  INFO 3940 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T17:02:22.551-03:00  INFO 3940 --- [bump] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2025-08-02T17:02:23.506-03:00  INFO 3940 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-02T17:02:23.534-03:00  INFO 3940 --- [bump] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-02T17:02:23.534-03:00  INFO 3940 --- [bump] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-08-02T17:02:23.600-03:00  INFO 3940 --- [bump] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/bump]   : Initializing Spring embedded WebApplicationContext
+2025-08-02T17:02:23.600-03:00  INFO 3940 --- [bump] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2357 ms
+2025-08-02T17:02:23.806-03:00  INFO 3940 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T17:02:24.102-03:00  INFO 3940 --- [bump] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T17:02:24.105-03:00  INFO 3940 --- [bump] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T17:02:24.319-03:00  INFO 3940 --- [bump] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T17:02:24.399-03:00  INFO 3940 --- [bump] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T17:02:24.450-03:00  INFO 3940 --- [bump] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T17:02:24.912-03:00  INFO 3940 --- [bump] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T17:02:25.044-03:00  INFO 3940 --- [bump] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -74,30 +66,159 @@ Database is already closed (to disable automatic closing at VM shutdown, add ";D
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-25T14:25:29.248-03:00  INFO 10564 --- [bump] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-25T14:25:29.250-03:00  INFO 10564 --- [bump] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-25T14:25:29.601-03:00  INFO 10564 --- [bump] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-25T14:25:30.181-03:00  WARN 10564 --- [bump] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-25T14:25:30.476-03:00  INFO 10564 --- [bump] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
-2025-07-25T14:25:30.549-03:00  INFO 10564 --- [bump] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-25T14:25:30.582-03:00  INFO 10564 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/bump'
-2025-07-25T14:25:30.591-03:00  INFO 10564 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Started BumpApplication in 5.316 seconds (process running for 5.825)
-2025-07-25T14:26:30.307-03:00  INFO 10564 --- [bump] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/bump]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-25T14:26:30.307-03:00  INFO 10564 --- [bump] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-25T14:26:30.308-03:00  INFO 10564 --- [bump] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-25T14:26:30.445-03:00  WARN 10564 --- [bump] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null]
-2025-07-25T14:28:01.231-03:00  WARN 10564 --- [bump] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-07-25T14:29:25.108-03:00  WARN 10564 --- [bump] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: Title not found]
-2025-07-25T14:29:58.750-03:00  WARN 10564 --- [bump] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: Title not found]
-2025-07-25T14:30:10.586-03:00  WARN 10564 --- [bump] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: Title not found]
-2025-07-25T14:30:54.730-03:00  WARN 10564 --- [bump] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: Title not found]
-2025-07-25T14:31:36.039-03:00 DEBUG 10564 --- [bump] [http-nio-8080-exec-1] o.h.sql.results.internal.ResultsHelper   : Collection fully initialized: [com.demoproject.bump.entities.PageEntity.posts#4]
-2025-07-25T14:31:44.388-03:00 DEBUG 10564 --- [bump] [http-nio-8080-exec-5] o.h.sql.results.internal.ResultsHelper   : Collection fully initialized: [com.demoproject.bump.entities.PageEntity.posts#4]
-2025-07-25T14:32:58.519-03:00 DEBUG 10564 --- [bump] [http-nio-8080-exec-3] o.h.sql.results.internal.ResultsHelper   : Collection fully initialized: [com.demoproject.bump.entities.PageEntity.posts#4]
-2025-07-25T14:33:12.678-03:00  INFO 10564 --- [bump] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-25T14:33:12.682-03:00  INFO 10564 --- [bump] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-25T14:33:12.687-03:00  INFO 10564 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-25T14:33:12.692-03:00  WARN 10564 --- [bump] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+2025-08-02T17:02:26.404-03:00  INFO 3940 --- [bump] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T17:02:26.409-03:00  INFO 3940 --- [bump] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:02:26.797-03:00  INFO 3940 --- [bump] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-02T17:02:27.520-03:00  WARN 3940 --- [bump] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T17:02:27.766-03:00  INFO 3940 --- [bump] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T17:02:28.032-03:00  INFO 3940 --- [bump] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T17:02:28.114-03:00  INFO 3940 --- [bump] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-02T17:02:28.149-03:00  INFO 3940 --- [bump] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/bump'
+2025-08-02T17:02:28.161-03:00  INFO 3940 --- [bump] [restartedMain] com.demoproject.bump.BumpApplication     : Started BumpApplication in 7.82 seconds (process running for 8.662)
+2025-08-02T17:02:38.715-03:00  INFO 3940 --- [bump] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-02T17:02:38.734-03:00  INFO 3940 --- [bump] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-02T17:02:38.744-03:00  INFO 3940 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:02:38.762-03:00  WARN 3940 --- [bump] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
 Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2025-07-25T14:33:12.693-03:00  INFO 10564 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-25T14:33:12.695-03:00  INFO 10564 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:02:38.763-03:00  INFO 3940 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T17:02:38.769-03:00  INFO 3940 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:02:54.695-03:00  INFO 15944 --- [bump] [main] c.d.bump.services.PageServiceTest        : Starting PageServiceTest using Java 23.0.1 with PID 15944 (started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T17:02:54.697-03:00  INFO 15944 --- [bump] [main] c.d.bump.services.PageServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T17:02:55.839-03:00  INFO 15944 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T17:02:55.926-03:00  INFO 15944 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2025-08-02T17:02:58.017-03:00  INFO 15944 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T17:02:58.237-03:00  INFO 15944 --- [bump] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T17:02:58.240-03:00  INFO 15944 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T17:02:58.382-03:00  INFO 15944 --- [bump] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T17:02:58.465-03:00  INFO 15944 --- [bump] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T17:02:58.499-03:00  INFO 15944 --- [bump] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T17:02:58.644-03:00  INFO 15944 --- [bump] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T17:02:58.739-03:00  INFO 15944 --- [bump] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-02T17:02:59.665-03:00  INFO 15944 --- [bump] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T17:02:59.665-03:00  INFO 15944 --- [bump] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:02:59.776-03:00  WARN 15944 --- [bump] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T17:03:00.099-03:00  INFO 15944 --- [bump] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T17:03:00.513-03:00  INFO 15944 --- [bump] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T17:03:00.631-03:00  INFO 15944 --- [bump] [main] c.d.bump.services.PageServiceTest        : Started PageServiceTest in 6.543 seconds (process running for 8.473)
+2025-08-02T17:03:00.772-03:00  INFO 15944 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:03:00.774-03:00  INFO 15944 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T17:03:00.780-03:00  INFO 15944 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:10:05.333-03:00  INFO 5860 --- [bump] [main] c.d.bump.services.PageServiceTest        : Starting PageServiceTest using Java 23.0.1 with PID 5860 (started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T17:10:05.336-03:00  INFO 5860 --- [bump] [main] c.d.bump.services.PageServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T17:10:06.341-03:00  INFO 5860 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T17:10:06.425-03:00  INFO 5860 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2025-08-02T17:10:08.366-03:00  INFO 5860 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T17:10:08.672-03:00  INFO 5860 --- [bump] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T17:10:08.676-03:00  INFO 5860 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T17:10:08.871-03:00  INFO 5860 --- [bump] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T17:10:08.962-03:00  INFO 5860 --- [bump] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T17:10:09.026-03:00  INFO 5860 --- [bump] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T17:10:09.238-03:00  INFO 5860 --- [bump] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T17:10:09.365-03:00  INFO 5860 --- [bump] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-02T17:10:10.461-03:00  INFO 5860 --- [bump] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T17:10:10.465-03:00  INFO 5860 --- [bump] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:10:10.603-03:00  WARN 5860 --- [bump] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T17:10:10.902-03:00  INFO 5860 --- [bump] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T17:10:11.326-03:00  INFO 5860 --- [bump] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T17:10:11.403-03:00  INFO 5860 --- [bump] [main] c.d.bump.services.PageServiceTest        : Started PageServiceTest in 6.643 seconds (process running for 8.538)
+2025-08-02T17:10:11.731-03:00  INFO 5860 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:10:11.738-03:00  INFO 5860 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T17:10:11.743-03:00  INFO 5860 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:10:53.986-03:00  INFO 5552 --- [bump] [main] c.d.bump.services.PageServiceTest        : Starting PageServiceTest using Java 23.0.1 with PID 5552 (started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T17:10:53.989-03:00  INFO 5552 --- [bump] [main] c.d.bump.services.PageServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T17:10:54.948-03:00  INFO 5552 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T17:10:55.036-03:00  INFO 5552 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2025-08-02T17:10:57.132-03:00  INFO 5552 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T17:10:57.414-03:00  INFO 5552 --- [bump] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T17:10:57.417-03:00  INFO 5552 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T17:10:57.594-03:00  INFO 5552 --- [bump] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T17:10:57.671-03:00  INFO 5552 --- [bump] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T17:10:57.735-03:00  INFO 5552 --- [bump] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T17:10:57.937-03:00  INFO 5552 --- [bump] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T17:10:58.064-03:00  INFO 5552 --- [bump] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-02T17:10:59.193-03:00  INFO 5552 --- [bump] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T17:10:59.198-03:00  INFO 5552 --- [bump] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:10:59.339-03:00  WARN 5552 --- [bump] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T17:10:59.665-03:00  INFO 5552 --- [bump] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T17:11:00.136-03:00  INFO 5552 --- [bump] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T17:11:00.223-03:00  INFO 5552 --- [bump] [main] c.d.bump.services.PageServiceTest        : Started PageServiceTest in 6.787 seconds (process running for 8.668)
+2025-08-02T17:11:00.500-03:00  INFO 5552 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:11:00.503-03:00  INFO 5552 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T17:11:00.509-03:00  INFO 5552 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:11:17.517-03:00  INFO 17616 --- [bump] [main] c.d.bump.services.PageServiceTest        : Starting PageServiceTest using Java 23.0.1 with PID 17616 (started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T17:11:17.517-03:00  INFO 17616 --- [bump] [main] c.d.bump.services.PageServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T17:11:18.511-03:00  INFO 17616 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T17:11:18.603-03:00  INFO 17616 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2025-08-02T17:11:20.641-03:00  INFO 17616 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T17:11:20.913-03:00  INFO 17616 --- [bump] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T17:11:20.913-03:00  INFO 17616 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T17:11:21.114-03:00  INFO 17616 --- [bump] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T17:11:21.198-03:00  INFO 17616 --- [bump] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T17:11:21.244-03:00  INFO 17616 --- [bump] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T17:11:21.439-03:00  INFO 17616 --- [bump] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T17:11:21.561-03:00  INFO 17616 --- [bump] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-02T17:11:22.682-03:00  INFO 17616 --- [bump] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T17:11:22.686-03:00  INFO 17616 --- [bump] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:11:22.832-03:00  WARN 17616 --- [bump] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T17:11:23.178-03:00  INFO 17616 --- [bump] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T17:11:23.645-03:00  INFO 17616 --- [bump] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T17:11:23.734-03:00  INFO 17616 --- [bump] [main] c.d.bump.services.PageServiceTest        : Started PageServiceTest in 6.795 seconds (process running for 8.69)
+2025-08-02T17:11:23.967-03:00  INFO 17616 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:11:23.967-03:00  INFO 17616 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T17:11:23.973-03:00  INFO 17616 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-02T17:20:45.916-03:00  INFO 6832 --- [bump] [main] c.d.bump.services.PageServiceTest        : Starting PageServiceTest using Java 23.0.1 with PID 6832 (started by tomas in C:\Users\tomas\IdeaProjects\bump)
+2025-08-02T17:20:45.918-03:00  INFO 6832 --- [bump] [main] c.d.bump.services.PageServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2025-08-02T17:20:46.638-03:00  INFO 6832 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-02T17:20:46.705-03:00  INFO 6832 --- [bump] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2025-08-02T17:20:48.014-03:00  INFO 6832 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-02T17:20:48.194-03:00  INFO 6832 --- [bump] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bump user=SA
+2025-08-02T17:20:48.196-03:00  INFO 6832 --- [bump] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-02T17:20:48.331-03:00  INFO 6832 --- [bump] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-02T17:20:48.386-03:00  INFO 6832 --- [bump] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-08-02T17:20:48.429-03:00  INFO 6832 --- [bump] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-02T17:20:48.555-03:00  INFO 6832 --- [bump] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-02T17:20:48.639-03:00  INFO 6832 --- [bump] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-02T17:20:49.377-03:00  INFO 6832 --- [bump] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-02T17:20:49.379-03:00  INFO 6832 --- [bump] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:20:49.478-03:00  WARN 6832 --- [bump] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-02T17:20:49.713-03:00  INFO 6832 --- [bump] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-02T17:20:50.066-03:00  INFO 6832 --- [bump] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:bump'
+2025-08-02T17:20:50.123-03:00  INFO 6832 --- [bump] [main] c.d.bump.services.PageServiceTest        : Started PageServiceTest in 4.607 seconds (process running for 5.807)
+2025-08-02T17:20:50.314-03:00  INFO 6832 --- [bump] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-02T17:20:50.316-03:00  INFO 6832 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-02T17:20:50.318-03:00  INFO 6832 --- [bump] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
